@@ -1,0 +1,25 @@
+1-Qual endereço IP apareceu? 172.217.172.46
+2. Quantos pacotes foram enviados? 4
+3. Quantos foram recebidos? 4
+4. Houve perda de pacotes? Não
+5. Qual foi aproximadamente o tempo de resposta? 103ms
+
+Código:
+Microsoft Windows [versão 10.0.19045.6811]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Matias>ping google.com
+
+Disparando google.com [172.217.172.46] com 32 bytes de dados:
+Resposta de 172.217.172.46: bytes=32 tempo=379ms TTL=115
+Resposta de 172.217.172.46: bytes=32 tempo=12ms TTL=115
+Resposta de 172.217.172.46: bytes=32 tempo=11ms TTL=115
+Resposta de 172.217.172.46: bytes=32 tempo=13ms TTL=115
+
+Estatísticas do Ping para 172.217.172.46:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um número redondo de vezes em milissegundos:
+    Mínimo = 11ms, Máximo = 379ms, Média = 103ms
+
+C:\Users\Matias>
