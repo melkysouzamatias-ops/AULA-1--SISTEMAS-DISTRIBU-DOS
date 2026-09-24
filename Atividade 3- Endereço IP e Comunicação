@@ -1,0 +1,23 @@
+C:\Users\Matias>tracert google.com
+
+Rastreando a rota para google.com [172.217.172.46]
+com no máximo 30 saltos:
+
+  1     4 ms     3 ms    40 ms  172.28.128.1
+  2    43 ms    43 ms     5 ms  189.57.9.81
+  3   113 ms    98 ms     8 ms  ip-177-27-82-196.user.vivozap.com.br [177.27.82.196]
+  4     *        *        *     Esgotado o tempo limite do pedido.
+  5    42 ms    43 ms    11 ms  142.251.202.154
+  6    82 ms   140 ms   110 ms  108.170.227.19
+  7    10 ms    12 ms    72 ms  192.178.253.73
+  8    47 ms     9 ms   110 ms  pngrub-an-in-f14.1e100.net [172.217.172.46]
+
+Rastreamento concluído.
+
+C:\Users\Matias>
+
+
+1. Quantos saltos apareceram? 8
+2. Todos responderam? Não
+3. Apareceu * * * em algum salto? Sim, no 4
+4. O seu computador está conectado diretamente ao servidor do Google? Sim
