@@ -1,0 +1,46 @@
+Por que utilizamos nomes como google.com em vez de decorar endereços IP? 
+R: Porque o DNS funciona como um sistema distribuído responsável pela resolução de nomes, permitindo simplicidade nas transformações do IP.
+
+
+
+
+Código:
+
+Microsoft Windows [versão 10.0.19045.6811]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Matias>ping google.com
+
+Disparando google.com [172.217.172.46] com 32 bytes de dados:
+Resposta de 172.217.172.46: bytes=32 tempo=379ms TTL=115
+Resposta de 172.217.172.46: bytes=32 tempo=12ms TTL=115
+Resposta de 172.217.172.46: bytes=32 tempo=11ms TTL=115
+Resposta de 172.217.172.46: bytes=32 tempo=13ms TTL=115
+
+Estatísticas do Ping para 172.217.172.46:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um número redondo de vezes em milissegundos:
+    Mínimo = 11ms, Máximo = 379ms, Média = 103ms
+
+C:\Users\Matias>nslookup google.com
+Servidor:  UnKnown
+Address:  172.31.32.236
+
+Nao é resposta autoritativa:
+Nome:    google.com
+Addresses:  2800:3f0:4001:80e::200e
+          172.217.172.46
+
+
+C:\Users\Matias>nslookup youtube.com
+Servidor:  UnKnown
+Address:  172.31.32.236
+
+Nao é resposta autoritativa:
+Nome:    youtube.com
+Addresses:  2800:3f0:4001:839::200e
+          172.217.29.238
+
+
+C:\Users\Matias>
