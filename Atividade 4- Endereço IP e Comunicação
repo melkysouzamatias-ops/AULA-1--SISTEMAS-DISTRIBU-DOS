@@ -1,0 +1,31 @@
+C:\Users\Matias>python -m http.server 8000
+Python nπo foi encontrado; executar sem argumentos para instalar do Microsoft Store ou desabilitar este atalho em Configuraτ⌡es > Aplicativos > Configuraτ⌡es avanτadas do aplicativo > Aliases de execuτπo do aplicativo.
+
+C:\Users\Matias>ipconfig
+
+Configuração de IP do Windows
+
+
+Adaptador de Rede sem Fio Local Area Connection* 9:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Local Area Connection* 10:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Wi-Fi:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::772a:1c2a:bbe9:859a%4
+   Endereço IPv4. . . . . . . .  . . . . . . . : 172.28.128.139
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.192.0
+   Gateway Padrão. . . . . . . . . . . . . . . : 172.28.128.1
+
+C:\Users\Matias>
+
+C:\Users\Matias>
+
+Resultado: Servidor do aluno A com erro de compartilhamento.
